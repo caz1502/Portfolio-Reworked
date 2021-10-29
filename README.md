@@ -4,13 +4,23 @@ Live Application Link 👀 **https://caz1502.github.io/Day-Planner/ **
 
 ## Your Task
 
+* Updated portfolio featuring Project 1 and two exemplary homework assignments.
+
+* Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+
+* Updated resume
+
+* Updated LinkedIn profile
 
 
-## User Story
+## Grading
 
- 
-
-## Acceptance Criteria
+| Requirement      | Weight |
+| ---------------- | ------ |
+| Portfolio        | 40%    |
+| GitHub Profile   | 40%    |
+| Resume           | 10%    |
+| LinkedIn Profile | 10%    |
 
  
 
