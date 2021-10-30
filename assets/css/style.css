@@ -1,3 +1,38 @@
+@font-face {
+  font-family:"punk" ;
+  src: url(../fonts/punk\ kid.ttf)
+  format('truetype');
+}
+
+.navbar {
+  background:transparent;   
+  font-size: 1.5em;     
+  font-weight: bolder;  
+ padding: 2rem !important;       
+}
+
+#introbox {
+  background:transparent;   
+  color: white;
+
+}
+
+#introbox p {
+  font-size: 1.5rem;
+  color: #cbb4d4;
+  font-weight: bold;
+}
+
+#intro {
+  font-family: "punk";
+  font-size: 6em;
+  letter-spacing: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;  
+  color: white;
+}
+
+
 body {
     height: 100vh;  
     background-image: url(../images/hin-bong-yeung-jF946mh5QrA-unsplash.jpg);
@@ -8,15 +43,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;   
     background-attachment: fixed;    
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.navbar {
-    background:transparent;   
-    font-size: 1.5em;     
-    font-weight: bolder;  
-   padding: 2rem !important;       
-}
 
 
 .card-deck  {
@@ -36,7 +66,15 @@ body {
 
 @media screen and (max-width: 600px) {
     .card-deck  {
-      width: 90%;;
+      width: 90%; 
+
+    }
+    #introbox p {     
+      color: white;     
+    }
+    #intro {
+      font-size: 4em;
+
     }
   }
 
