@@ -1,6 +1,6 @@
 ## Daily Schduler
 
-Live Application Link 👀 **https://caz1502.github.io/Portfolio-Reworked/**
+Live Application Link 👀 ****
 
 ## Your Task
 
