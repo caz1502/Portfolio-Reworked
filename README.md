@@ -1,6 +1,6 @@
 ## Daily Schduler
 
-Live Application Link 👀 **https://caz1502.github.io/Day-Planner/ **
+Live Application Link 👀 **https://caz1502.github.io/Portfolio-Reworked/**
 
 ## Your Task
 
