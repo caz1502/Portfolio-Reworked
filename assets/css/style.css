@@ -44,19 +44,29 @@ body {
     -o-background-size: cover;   
     background-attachment: fixed;    
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;   
 }
-
-
 
 .card-deck  {
   width: 65%;
   margin-left: auto !important;
   margin-right: auto !important;  
   padding-top: 4rem;
+
 }
 
+.mycustom_class.w3-animate-left {
+  animation: 4s ease 0s normal none 1 running animateleft;
+}
 
+.mycustom_class.w3-animate-right {
+  animation: 4s ease 0s normal none 1 running animateright;
+}
+
+.mycustom_class.w3-animate-bottom {
+    animation: 4s ease 0s normal none 1 running animatebottom;
+}
+  
 
 @media screen and (max-width: 1024px) {
     .card-deck  {
