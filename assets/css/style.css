@@ -53,6 +53,11 @@ body {
   margin-left: auto !important;
   margin-right: auto !important;  
   padding-top: 4rem;
+}
+
+.card i {
+  letter-spacing: 0.5rem;
+  font-size: 2rem;
 
 }
 
@@ -69,25 +74,6 @@ body {
 }
   
 
-@media screen and (max-width: 1024px) {
-    .card-deck  {
-      width: 90%;
-    }
-  }
-
-@media screen and (max-width: 600px) {
-    .card-deck  {
-      width: 90%; 
-
-    }
-    #introbox p {     
-      color: white;     
-    }
-    #intro {
-      font-size: 4em;
-
-    }
-  }
 
 .carousel-inner img {
   width: 100%;
@@ -105,4 +91,29 @@ body {
   width: 100%;
   padding: 1rem;
 
+}
+
+@media screen and (max-width: 1024px) {
+  .card-deck  {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-deck  {
+    width: 90%; 
+
+  }
+  #introbox p {     
+    color: white;     
+  }
+  #intro {
+    font-size: 4em;
+  }
+
+  .card i {
+    letter-spacing: 0.5rem;
+    font-size: 1rem;
+  
+  }
 }
