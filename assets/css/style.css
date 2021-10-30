@@ -8,7 +8,7 @@
   background:transparent;   
   font-size: 1.5em;     
   font-weight: bolder;  
- padding: 2rem !important;       
+ padding: 1rem !important;       
 }
 
 #introbox {
@@ -19,7 +19,7 @@
 
 #introbox p {
   font-size: 1.5rem;
-  color: #cbb4d4;
+  color:#91EAE4;
   font-weight: bold;
 }
 
@@ -58,8 +58,14 @@ body {
 .card i {
   letter-spacing: 0.5rem;
   font-size: 2rem;
-
 }
+
+.card {
+
+    box-shadow:   
+    0 0 190px#86A8E7;
+    }
+
 
 .mycustom_class.w3-animate-left {
   animation: 4s ease 0s normal none 1 running animateleft;
@@ -71,26 +77,21 @@ body {
 
 .mycustom_class.w3-animate-bottom {
     animation: 4s ease 0s normal none 1 running animatebottom;
-}
-  
-
+}  
 
 .carousel-inner img {
   width: 100%;
   height: 100%;
-
 }
 
 .carousel-inner img {
   width: 100%;
-  padding: 1rem;
- 
+  padding: 1rem; 
 }
 
 .card-img-top {
   width: 100%;
   padding: 1rem;
-
 }
 
 @media screen and (max-width: 1024px) {
