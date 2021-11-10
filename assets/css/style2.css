@@ -1,0 +1,65 @@
+@font-face {
+    font-family:"punk" ;
+    src: url(../fonts/TheBattleCont.ttf)
+    format('truetype');
+  }  
+
+  html {
+    height: 100vh;  
+    width: 100vw;
+    overflow: scroll;
+  }
+ 
+  body {     
+    background-image: url(../images/hin-bong-yeung-jF946mh5QrA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;   
+         
+  }
+
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.50);
+}
+
+  
+     
+ #typedtext {
+    font-family: "punk";
+    color: #6dd5ed;
+    position: absolute;
+    top: 50%;
+    left: 51%; 
+    /* margin-right: -50%; */
+    transform: translate(-50%, -50%);
+    text-align: center;    
+    letter-spacing: 6px; 
+    font-weight: bold;  
+    font-size: 70px !important;
+ }
+
+
+ .mycustom_class.w3-animate-bottom {
+    animation: 3s ease 0s normal none 1 running animatebottom;
+    position: absolute;
+    bottom:  30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:  30px; 
+    letter-spacing: 3px; 
+    font-weight: bold; 
+    color:#f5af19;
+    font-family:monospace
+}  
+
+a {
+  text-decoration: none;
+}
